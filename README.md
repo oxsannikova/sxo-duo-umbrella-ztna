@@ -1,7 +1,7 @@
 # Applying user Zero Trust policies to Umbrella top blocked identity
 
 ## Features
-This [workflow](https://github.com/oxsannikova/sxo-workflows/blob/master/sxo-ztna-duo-umbrella/Applying%20user%20ZT%20policies%20to%20Umbrella%20top%20blocked%20identity.json) searches and returns the top 10 identities in Cisco Umbrella with DNS activity blocks for the last 7 days. The data is then parsed and posted in a ServiceNow incident.
+This [workflow](/sxo-ztna-duo-umbrella/Applying%20user%20ZT%20policies%20to%20Umbrella%20top%20blocked%20identity.json) searches and returns the top 10 identities in Cisco Umbrella with DNS activity blocks for the last 7 days. The data is then parsed and posted in a ServiceNow incident.
 
 **Note:** This workflow is base on the workflow #0041 with added response actions: https://ciscosecurity.github.io/sxo-05-security-workflows/workflows/0041
 
